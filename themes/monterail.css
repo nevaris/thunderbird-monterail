@@ -52,7 +52,9 @@
   --tree-row-highlight-text-color: var(--highlight-text-color);
   
   /*---- Folder Tree ----*/
-  --folder-tree-background-color: linear-gradient(135deg, var(--monterail-color) 0%, var(--monterail-dark-color) 100%) !important;
+  /*---- --folder-tree-background-color: url("../img/logo.png") no-repeat center bottom, linear-gradient(135deg, var(--monterail-color) 0%, var(--monterail-dark-color) 100%) !important; ----*/
+  /*---- --folder-tree-background-color: linear-gradient(135deg, var(--monterail-color) 0%, var(--monterail-dark-color) 100%) !important; ----*/
+  --folder-tree-background-color: url("../img/Mozilla_Thunderbird_logo_bg.png") no-repeat right bottom, linear-gradient(135deg, var(--monterail-color) 0%, var(--monterail-dark-color) 100%) !important;
   --folder-tree-text-color: White;
   --folder-tree-row-height: 25px;
   --folder-tree-highlight-background-color: #3C818F;

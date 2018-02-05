@@ -159,6 +159,18 @@ treechildren:-moz-tree-twisty {
 	color: var(--message-list-highlight-text-color) !important;
 }
 
+/* add zebra striping */
+#threadTree treechildren::-moz-tree-row(odd) {
+	-moz-appearance: none !important;
+	background-image: none !important;
+	background-color:#F2F1F0 !important;
+} 
+
+#threadTree treechildren::-moz-tree-row( selected) {
+	background-color: Highlight !important;
+}
+
+
 #threadCols, #threadCols treecol, #threadCols treecolpicker {
 	-moz-appearance: none !important;
 	background: var(--message-list-header-background-color) !important;
